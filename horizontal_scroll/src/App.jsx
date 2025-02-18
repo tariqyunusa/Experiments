@@ -47,7 +47,6 @@ function App() {
       trigger: textRef.current,
       start: "top 20%",
       end: "+=" + totalScroll,
-      markers: true,
       scrub: 1,
       pin: true,
       animation: tl
