@@ -1,0 +1,49 @@
+section{
+    width: 100vw;
+    height: 100vh;  
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+    
+}
+.text_wrapper{
+    display: flex;
+    gap: 3rem;
+    position: absolute;
+    left: 0;
+    padding: 4rem;
+    
+}
+.text_wrapper h1{
+    font-size: calc(2rem + 10vh);
+    cursor: pointer;
+}
+.filler{
+    width: 100vw;
+    height: 100vh;
+}
+.filler-top{
+    background-color: #d1d1d1;
+}
+.filler-bottom{
+    background-color: #0e0e0e;
+}
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 1000;
+    width: 20rem;
+    height: 25rem;
+  }
+  
+  .modal img {
+    
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
