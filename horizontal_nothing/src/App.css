@@ -1,0 +1,122 @@
+.__hero{
+  
+    display: flex;
+    position: absolute;
+    left: 0;
+}
+.section_hero{
+    margin-top: 1rem;
+    width:100vw;
+    position: relative;
+    height: 88vh;
+}
+.hero{
+    width: 100vw;
+    height: 88vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 2rem;
+    position: relative;
+}
+.hero_text__wrapper{
+    font-family: "Cormorant Garamond", serif;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 800px;
+}
+.hero_text__wrapper h1{
+    font-size: 3rem;
+}
+.hero_text__wrapper p{
+    font-size: 1.5rem;
+}
+.image_wrapper{
+    max-width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.second_image{
+    position: absolute;
+    top: 9rem;
+    left: -50rem;
+    transform: rotate(-35deg);
+}
+.third_image{
+    position: absolute;
+    top: 18rem;
+    left: -27rem;
+    transform: rotate(28deg);
+}
+.fourth_image{
+    width: 260px;
+    height: 200px;
+    position: absolute;
+    top: 40rem;
+    left: -40rem;
+    transform: rotate(20deg);
+}
+.images__all{
+    width: 20.16rem;
+    height: 17.313rem;
+    position: absolute;
+}
+.images__all:nth-child(1) {
+    top: 10%;
+    left:3%;
+    transform: rotate(-45deg);
+}
+.images__all:nth-child(2) {
+    top: 5%;
+    left:40%;
+    transform: rotate(29deg);
+}
+.images__all:nth-child(3) {
+    top: 16%;
+    left:70%;
+    transform: rotate(-19deg);
+}
+.images__all:nth-child(4) {
+    top: 40%;
+    left:40%;
+}
+.images__all:nth-child(5) {
+    top: 60%;
+    left:7%;
+    transform: rotate(-39deg);
+}
+.images__all:nth-child(6) {
+    top: 70%;
+    left:50%;
+    transform: rotate(19deg);
+}
+.images__all:nth-child(7) {
+    top: 50%;
+    left:76%;
+    transform: rotate(12deg);
+}
+.imagees{
+    position: absolute;
+    width: 245px;
+    height: 200px;
+}
+.image___{
+    position: relative;
+    width: 100%;
+    height: 90%;
+}
+.single_1{
+    top: 30%;
+    left: 30%;
+    
+}
+.single_2{
+    top: 50%;
+    left: 45%;
+}
+.single_3{
+    top: 50%;
+    left: 15%;
+}
