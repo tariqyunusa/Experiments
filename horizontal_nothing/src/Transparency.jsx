@@ -7,18 +7,18 @@ const Transparency = () => {
   return (
     <section className='hero'>
        <div className='hero_text__wrapper'>
-              <h1 data-animation-header>A Bold Evolution in Transparency</h1>
-              <p data-animation-paragraph>In signature Nothing fashion, Ear (a) refines our transparent design while introducing a bold new direction with its fresh bubble aesthetic—your pocket’s newest essential companion.</p>
+              <h1 data-animation = 'header'>A Bold Evolution in Transparency</h1>
+              <p data-animation = 'paragraph'>In signature Nothing fashion, Ear (a) refines our transparent design while introducing a bold new direction with its fresh bubble aesthetic—your pocket’s newest essential companion.</p>
             </div>
             <div className='image_wrapper'>
             <div className='image second_image'>
-              <img src={yellow} alt="" data-animation-image/>
+              <img src={yellow} alt="" data-animation = 'image'/>
             </div>
             <div className='image third_image'>
-              <img src={black} alt="" data-animation-image/>
+              <img src={black} alt="" data-animation = 'image'/>
             </div>
             <div className='image fourth_image'>
-              <img src={white} alt="" data-animation-image/>
+              <img src={white} alt="" data-animation = 'image'/>
             </div>
             </div>
              

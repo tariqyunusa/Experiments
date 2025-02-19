@@ -12,8 +12,8 @@ const Images = () => {
   return (
     <div className='section_hero'>
     {images.map((img, idx) => (
-      <div className="images__all" key={idx}>
-        <img src={img} alt="" />
+      <div className="images__all" key={idx} >
+        <img src={img} alt="" data-animation = 'image' />
       </div>
     ))}
     </div>
